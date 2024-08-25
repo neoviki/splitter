@@ -1,0 +1,8 @@
+<config>
+  <input_file>Silicone Mold Assembly V3.zip</input_file>
+  <chunk_size_mb>1</chunk_size_mb>
+  <max_file_count>8</max_file_count>
+  <file_extension>.bin</file_extension>
+  <splitted_files_folder>file_chunks</splitted_files_folder>
+  <merged_files_folder>merged_file</merged_files_folder>
+</config>
