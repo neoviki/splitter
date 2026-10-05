@@ -56,7 +56,7 @@ def merge_file():
         return False
 
     if OUTPUT_FILE.exists():
-        answer = input(f"{{OUTPUT_FILE.name}} already exists. Overwrite? [y/N]: ").strip().lower()
+        answer = input(f"{{OUTPUT_FILE.name}} already exists. Overwrite? [y/n]: ").strip().lower()
         if answer != "y":
             print("Skipped.")
             return False
@@ -184,7 +184,7 @@ def split_file(file_path, split_size):
 
 
 def ask_to_split(file_path):
-    answer = input(f"Split '{file_path}'? [y/N]: ").strip().lower()
+    answer = input(f"Split '{file_path}'? [y/n]: ").strip().lower()
     return answer == "y"
 
 
