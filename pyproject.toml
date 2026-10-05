@@ -1,0 +1,17 @@
+[build-system]
+requires = ["setuptools>=61"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "splitter"
+version = "1.0.0"
+description = "Simple file splitter and self-contained file merger"
+readme = "README.md"
+requires-python = ">=3.9"
+license = {text = "MIT"}
+
+[project.scripts]
+splitter = "splitter.splitter:main"
+
+[tool.setuptools.packages.find]
+include = ["splitter*"]

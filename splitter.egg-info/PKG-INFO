@@ -1,3 +1,11 @@
+Metadata-Version: 2.4
+Name: splitter
+Version: 1.0.0
+Summary: Simple file splitter and self-contained file merger
+License: MIT
+Requires-Python: >=3.9
+Description-Content-Type: text/markdown
+
 # splitter
 
 A simple command-line tool for splitting large files into smaller chunks.
@@ -154,9 +162,17 @@ The complete directory contains everything required to merge the pieces again.
 
 ## Requirements
 
+For splitting:
+
 ```text
 Python 3
 pipx (for installation)
+```
+
+For merging:
+
+```text
+Python 3
 ```
 
 No additional Python packages are required.

@@ -1,0 +1,2 @@
+[console_scripts]
+splitter = splitter.splitter:main
